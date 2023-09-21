@@ -1,0 +1,20 @@
+.container {
+    overflow-y: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    color: white;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    height: 100vh;
+    background: url("../public/assets/bg.jpeg");
+}
+
+/*removes scroll bar in chrome
+should also have scrollbar-width set to none;
+*/
